@@ -1,6 +1,6 @@
-# multivariate Alpha-Skewed Normal (ASNm)
+# multivariate Alpha-Skew Normal (ASNm)
 
-This repository is related to the Alpha-Skewed Normal (ASN) distribution using the Hamiltonian Monte Carlo (HMC), via STAN, to make the Approximate Bayesian computation (ABC). The ASN density distribution is defined as,
+This repository is related to the Alpha-Skew Normal (ASN) distribution using the Hamiltonian Monte Carlo (HMC), via STAN, to make the Approximate Bayesian computation (ABC). The ASN density distribution is defined as,
 
 $f(x|\mu,\sigma,\alpha) = \frac{(1-\alpha \frac{x-\mu}{\sigma})^2+1}{(2+\alpha ^2) \sigma}  \phi(\frac{x-\mu}{\sigma}),$
 
